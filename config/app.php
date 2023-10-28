@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
+use MongoDB\Laravel\MongoDBServiceProvider;
 
 return [
 
@@ -159,6 +160,7 @@ return [
         /*
          * Package Service Providers...
          */
+        MongoDBServiceProvider::class,
 
         /*
          * Application Service Providers...
